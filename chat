@@ -1,0 +1,7 @@
+-- force chat script
+
+-- for local scripts:
+local C_1 = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("deez","All")
+
+-- normal scripts 
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LOL HELLO","All")
